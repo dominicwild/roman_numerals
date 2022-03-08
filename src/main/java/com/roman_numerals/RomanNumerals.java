@@ -9,7 +9,7 @@ public class RomanNumerals {
             romanNumeral.append("I");
         }
 
-        return romanNumeral.toString().replace("IIIII", "V");
+        return romanNumeral.toString().replace("IIIII", "V").replace("VV", "X").replace("XXXXX", "L");
     }
 
 }
