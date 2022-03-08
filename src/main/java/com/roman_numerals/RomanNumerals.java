@@ -3,11 +3,13 @@ package com.roman_numerals;
 public class RomanNumerals {
 
     public static String convert(int toConvert) {
-        if(toConvert == 1) {
-            return "I";
+        StringBuilder romanNumeral = new StringBuilder();
+
+        for (int i = 0; i < toConvert; i++) {
+            romanNumeral.append("I");
         }
 
-        return "II";
+        return romanNumeral.toString();
     }
 
 }

@@ -11,6 +11,7 @@ class RomanNumeralsTest {
     @CsvSource({
             "1, I",
             "2, II",
+            "3, III",
     })
     void integers_convert_to_correct_roman_numeral(int toConvert, String romanNumeral) {
         assertEquals(romanNumeral, RomanNumerals.convert(toConvert));
