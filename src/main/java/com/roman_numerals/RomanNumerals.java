@@ -1,8 +1,9 @@
 package com.roman_numerals;
 
 public class RomanNumerals {
-    
-    public static void convert(int toConvert) {
+
+    public static String convert(int toConvert) {
+        return "I";
     }
-    
+
 }
