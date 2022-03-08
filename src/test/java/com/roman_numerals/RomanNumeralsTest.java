@@ -10,6 +10,7 @@ class RomanNumeralsTest {
     @ParameterizedTest
     @CsvSource({
             "1, I",
+            "2, II",
     })
     void integers_convert_to_correct_roman_numeral(int toConvert, String romanNumeral) {
         assertEquals(romanNumeral, RomanNumerals.convert(toConvert));
