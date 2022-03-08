@@ -22,6 +22,7 @@ class RomanNumeralsTest {
             "15, XV",
             "16, XVI",
             "50, L",
+            "99, XCIX",
             "100, C",
             "101, CI",
             "150, CL",
@@ -38,6 +39,8 @@ class RomanNumeralsTest {
             "90, XC",
             "400, CD",
             "900, CM",
+            "2499, MMCDXCIX",
+            "3949, MMMCMXLIX",
     })
     void integers_convert_to_correct_roman_numeral(int toConvert, String romanNumeral) {
         assertEquals(romanNumeral, RomanNumerals.convert(toConvert));
