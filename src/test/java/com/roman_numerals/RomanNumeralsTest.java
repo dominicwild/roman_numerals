@@ -32,6 +32,12 @@ class RomanNumeralsTest {
             "1001, MI",
             "1070, MLXX",
             "2000, MM",
+            "4, IV",
+            "9, IX",
+            "40, XL",
+            "90, XC",
+            "400, CD",
+            "900, CM",
     })
     void integers_convert_to_correct_roman_numeral(int toConvert, String romanNumeral) {
         assertEquals(romanNumeral, RomanNumerals.convert(toConvert));

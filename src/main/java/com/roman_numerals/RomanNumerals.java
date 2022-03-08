@@ -25,11 +25,17 @@ public class RomanNumerals {
 
     enum RomanNumeral {
         I(1),
+        IV(4),
         V(5),
+        IX(9),
+        XL(40),
+        XC(90),
         X(10),
         L(50),
         C(100),
+        CD(400),
         D(500),
+        CM(900),
         M(1000);
 
         private final int value;
